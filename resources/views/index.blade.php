@@ -41,7 +41,7 @@
 					
 					<div class="row">
 					@foreach ($posts as $post)
-                    <!--  d*@if (preg_match("/^a|A|b./",$post->author))-->
+                    @if (preg_match("/./",$post->author))
 						<div class="col-4">
 							<a href="cover/{{ $post->cover }}" class="thumbnail" data-gallery="gallery1">
 								<img src="cover/{{ $post->cover }}"alt="{{ $post->title }}"/>
@@ -52,7 +52,7 @@
       							</div>
 							</a>
 						</div>
-                   <!--  @endif  -->  
+                    @endif  
 					@endforeach	
 					
 					</div>

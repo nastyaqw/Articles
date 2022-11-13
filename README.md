@@ -29,10 +29,14 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
-## Requirements
+## Installation
 
-- clone project
-- rename .env.example to .env
+- git clone https://github.com/nastyaqw/gallery gallery
+- cd gallery
+- cp .env.example .env
+- composer install
 - composer update
-- run php artisan key:generate
-- config your own database
+- php artisan key:generate
+- create a database in phpMyadmin and inform .env (DB_DATABASE)
+- php artisan migrate --seed, to create and populate tables
+- php artisan serve, to start the app on http://localhost:8000/

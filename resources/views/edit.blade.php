@@ -30,17 +30,7 @@
 
 
 
-                     @if (count($posts->images)>0)
-                     <p>Images:</p>
-                     @foreach ($posts->images as $img)
-                     <form action="/deleteimage/{{ $img->id }}" method="post">
-                         <button class="btn text-danger">X</button>
-                         @csrf
-                         @method('delete')
-                         </form>
-                     <img src="/images/{{ $img->image }}" class="img-responsive" style="max-height: 100px; max-width: 100px;" alt="" srcset="">
-                     @endforeach
-                     @endif
+                
 
                 </div>
 
@@ -57,8 +47,7 @@
                          <label class="m-2">Cover Image</label>
                          <input type="file" id="input-file-now-custom-3" class="form-control m-2" name="cover">
 
-                         <label class="m-2">Images</label>
-                         <input type="file" id="input-file-now-custom-3" class="form-control m-2" name="images[]" multiple>
+
 
                         <button type="submit" class="btn btn-danger mt-3 ">Submit</button>
                         </form>

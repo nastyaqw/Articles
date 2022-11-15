@@ -17,6 +17,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/',[PostController::class,'index']);
 Route::get('/admin',[PostController::class,'admin']);
+
+Route::get('/Archiceture',[PostController::class,'indexA']);
 Route::get('/create',function(){
 return view('create');
 });

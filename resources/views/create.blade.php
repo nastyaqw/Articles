@@ -30,8 +30,7 @@
                          <label class="m-2">Cover Image</label>
                          <input type="file" id="input-file-now-custom-3" class="form-control m-2" name="cover">
 
-                         <label class="m-2">Images</label>
-                         <input type="file" id="input-file-now-custom-3" class="form-control m-2" name="images[]" multiple>
+
 
                         <button type="submit" class="btn btn-danger mt-3 ">Submit</button>
                         </form>

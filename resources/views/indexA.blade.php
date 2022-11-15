@@ -21,13 +21,13 @@
         <div class="nav">
             <div class="container">
                 <div class="nav__content">
-                    <a href="/" class="nav__link nav__link-active">
+                    <a href="/" class="nav__link">
                         Картинная галерея
                     </a>
                     <a href="artists.html" class="nav__link">
                         Художники
                     </a>
-                    <a href="/Archiceture" class="nav__link">
+                    <a href="/Archiceture" class="nav__link nav__link-active">
                         Архитектура
                     </a>
                     <a href="museum.html" class="nav__link">
@@ -57,6 +57,7 @@
                 </div>
                 <div class="row">
                     @foreach ($posts as $post)
+                    @if (preg_match("/[а|А]рхитектура/",$post->title))
                         <div class="col-4">
                             <a href="cover/{{ $post->cover }}" class="thumbnail" data-gallery="gallery1">
                                 <img src="cover/{{ $post->cover }}"alt="{{ $post->title }}"/>
@@ -67,6 +68,7 @@
                                   </div>
                             </a>
                         </div>
+                        @endif
                     @endforeach	
                 </div>
             </div>

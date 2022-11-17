@@ -1,7 +1,9 @@
 ## Laravel Photo Gallery
 
 [Live Demo](http://10.73.96.37:8000/)
-
+![Снимок экрана 2022-11-17 215558](https://user-images.githubusercontent.com/79269539/202521533-62a2598f-7f9f-4f1f-a836-a3cacddbd3ba.jpg)
+[Admin panel](http://10.73.96.37:8000/admin)
+![Снимок экрана 2022-11-17 215826](https://user-images.githubusercontent.com/79269539/202521989-015d0f58-d0bd-4b41-ab46-7d1479d96e8c.jpg)
 **Laravel Photo Gallery** is a photo uploading application.
 
 ### Installation

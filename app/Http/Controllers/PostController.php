@@ -24,10 +24,10 @@ class PostController extends Controller
         $posts=Post::all();
         return view('indexA')->with('posts',$posts);
     }
-    public function admin()
+    public function myadmin()
     {
         $posts=Post::all();
-        return view('admin')->with('posts',$posts);
+        return view('myadmin')->with('posts',$posts);
     }
     /**
      * Show the form for creating a new resource.

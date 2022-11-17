@@ -13,28 +13,9 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-
 Route::get('/',[PostController::class,'index']);
-Route::get('/admin',[PostController::class,'admin']);
-
 Route::get('/Archiceture',[PostController::class,'indexA']);
-Route::get('/create',function(){
-return view('create');
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
 });
-
-Route::get('/test',function(){
-    return view('test');
-    });
-
-Route::post('/post',[PostController::class,'store']);
-Route::delete('/delete/{id}',[PostController::class,'destroy']);
-Route::get('/edit/{id}',[PostController::class,'edit']);
-
-
-Route::delete('/deleteimage/{id}',[PostController::class,'deleteimage']);
-Route::delete('/deletecover/{id}',[PostController::class,'deletecover']);
-
-Route::put('/update/{id}',[PostController::class,'update']);
-
-

@@ -10,9 +10,10 @@ class Post extends Model
     use HasFactory;
     protected $fillable=[
         'title',
-        'author',
+        'meta_description',
         'body',
-        'cover',
+        'excerpt',
+        'image',
     ];
 
     public function images(){

@@ -84,7 +84,7 @@
                             <a href="#" class="nav__link">
                                 Музеи мира
                             </a>
-                            <a href="#" class="nav__link nav__link-active">
+                            <a href="/Archiceture" class="nav__link nav__link-active">
                                 Архитектура
                             </a>
                             <a href="#" class="nav__link">

@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    width: 400px;
+    font-size: 40px;
+    line-height: 53px;
+    letter-spacing: 0.2em;
+}
+
+body {
+    letter-spacing: 0.05em;
+    font-family: 'PT Serif', serif;
+    line-height: 32px;
+    color: #000;
+    background-color: #F7E6D5;
+    font-weight: 400;
+    font-size: 20px;
+}
+.container{
+    width: 1080px;
+    padding: 0 20px;
+}
+/*======NAV=========*/
+
+.nav__content{
+    display: flex;
+    justify-content: center;
+}
+.nav__link{
+    margin: 0 27px;
+    color:#000;
+}
+.nav__link:hover{
+    text-decoration: none;
+    color:#000;
+}
+.nav__link-active{
+    text-decoration: underline #000  solid 1px;
+}
+.nav__link-active:hover{
+    text-decoration: underline #000  solid 1px;
+}
+
+/*======HEADER======*/
+.header{
+    background-color: #010005;
+    color: #ffffff;
+    height: 800px;
+}
+.header__content{
+    display: flex;
+    justify-content: space-between;
+}
+.header__title{
+    margin-top: 251px;
+
+}
+.header__text{
+    margin-top: 109px;
+    font-size: 24px;    
+}
+.header__autor{
+    margin-left: 30px;
+    margin-top: 23px;
+    font-size: 24px;
+}
+.header__img{
+    margin-top: 368px;
+}
+
+/*======MAIN======*/
+.main{
+    display: flex;
+    justify-content: center;
+}
+.title-block{
+    margin: 30px auto;
+    width: 943px;
+    height: 45px;
+    border: 3px solid #130202;
+    display: flex;
+    justify-content: center;
+}
+.title{
+    margin: 6px auto;
+
+}
+
+/*======FOOTER======*/
+.footer{
+    background-color: #050100;
+    height: 520px;
+    color: #fff;
+    display: flex;
+}
+.footer__content{
+    display: flex;
+    justify-content: center;
+}
+.footer__nav{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    justify-content: center;
+    margin-left: 60px;
+    margin-right: 130px;
+}
+
+.footer .nav__link{
+    color: #fff;
+    margin: 22px 0;
+}
+.footer__img{
+    margin-top: 184px;
+}
+.footer__title{
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+/* Header Area */ 
+.navbar {
+	background-color: #000;
+	color: #fff;
+	border: 1px solid #fff;
+}
+
+.navbar-collapse .navbar-nav>li>a {
+	color: #fff;
+}
+.navbar-default .navbar-brand{
+	color: #fff;
+}
+
+/* Container Area */ 
+.jumbotron {
+	color: #2c3e50;
+	background-color: #ecf0f1;
+	border: 1px solid #D6DBDF;
+	margin-top: 10px;
+}

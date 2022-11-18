@@ -24,6 +24,19 @@ class PostController extends Controller
         $posts=Post::all();
         return view('indexA')->with('posts',$posts);
     }
+
+    public function indexm()
+    {
+        $posts=Post::all();
+        return view('indexm')->with('posts',$posts);
+    }
+
+    public function artist()
+    {
+        $posts=Post::all();
+        return view('artist')->with('posts',$posts);
+    }
+
     public function myadmin()
     {
         $posts=Post::all();

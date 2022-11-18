@@ -24,13 +24,13 @@
                     <a href="/" class="nav__link">
                         Картинная галерея
                     </a>
-                    <a href="artists.html" class="nav__link">
+                    <a href="/Artists" class="nav__link">
                         Художники
                     </a>
                     <a href="/Archiceture" class="nav__link nav__link-active">
                         Архитектура
                     </a>
-                    <a href="museum.html" class="nav__link">
+                    <a href="/Museums" class="nav__link">
                         Музеи мира
                     </a>
                 </div>
@@ -84,13 +84,13 @@
                             <a href="/" class="nav__link">
                                 Картинная галерея
                             </a>
-                            <a href="#" class="nav__link">
-                                Музеи мира
+                            <a href="/Artists" class="nav__link">
+                                Художники
                             </a>
                             <a href="/Archiceture" class="nav__link nav__link-active">
                                 Архитектура
                             </a>
-                            <a href="#" class="nav__link">
+                            <a href="/Museums" class="nav__link">
                                 Музеи мира
                             </a>
                         </div>

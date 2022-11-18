@@ -88,6 +88,30 @@ body {
 
 }
 
+/*======BLOCK======*/
+.block__content{
+    display: flex;
+    justify-content: space-between;
+}
+.text-align-left{
+    margin-right: 50px;
+}
+.text-align-right{
+    text-align: right;
+    margin-left: 50px;
+}
+.block__img{
+    margin-bottom: 15px;
+    height: 100%;
+}
+.block__text-italic{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.05em;
+}
+
 /*======FOOTER======*/
 .footer{
     background-color: #050100;

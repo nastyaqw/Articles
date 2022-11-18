@@ -81,13 +81,13 @@
                     </div>
                     <div class="footer__inner">
                         <div class="footer__nav">
-                            <a href="#" class="nav__link">
+                            <a href="/" class="nav__link">
                                 Картинная галерея
                             </a>
                             <a href="#" class="nav__link">
                                 Музеи мира
                             </a>
-                            <a href="#" class="nav__link nav__link-active">
+                            <a href="/Archiceture" class="nav__link nav__link-active">
                                 Архитектура
                             </a>
                             <a href="#" class="nav__link">

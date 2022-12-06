@@ -10,7 +10,7 @@
 - php artisan key:generate
 - create a database in phpMyadmin and inform .env (DB_DATABASE)
 - php artisan migrate --seed, to create and populate tables
-- php artisan voyager:install
+- composer require tcg/voyager
 - php artisan voyager:install --with-dummy
 - php artisan serve, to start the app on http://localhost:8000/
 

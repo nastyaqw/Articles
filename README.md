@@ -1,15 +1,9 @@
-## Laravel Photo Gallery
+## Сайт статей на Laravel
 
-[Live Demo]()
-![Снимок экрана 2022-11-17 215558](https://user-images.githubusercontent.com/79269539/202521533-62a2598f-7f9f-4f1f-a836-a3cacddbd3ba.jpg)
-[Admin panel](http://10.73.96.37:8000/admin)
-![Снимок экрана 2022-11-17 215826](https://user-images.githubusercontent.com/79269539/202521989-015d0f58-d0bd-4b41-ab46-7d1479d96e8c.jpg)
-**Laravel Photo Gallery** is a photo uploading application.
+### Установка
 
-### Installation
-
-- git clone https://github.com/nastyaqw/gallery gallery
-- cd gallery
+- git clone https://github.com/nastyaqw/Articles name project
+- cd name project
 - cp .env.example .env
 - composer install
 - composer update
@@ -20,18 +14,17 @@
 - php artisan voyager:install --with-dummy
 - php artisan serve, to start the app on http://localhost:8000/
 
-### Features
+### Состав сайта
 
--   Home page
--   Authentication (registration, login, logout, password)
--   Users roles : roles,permission
--   Photo Upload Option
--   Admin dashboard
+-   Домашняя страница
+-   Аутентификация (регистрация, логин, пароль)
+-   Роли для пользоваетлей : роли,разрешения
+-   Опция загрузки фото
+-   Административная панель
 
 
-### Tricks
 
-To add posts:
-
--   Redactor : email = n@v.com, password = 123
+Вход в админ-панель:
+- Администратор : логин = admin@admin.com пароль = password
+- Редактор : логин = n@v.com, пароль = 123
 
